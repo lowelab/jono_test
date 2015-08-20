@@ -1,6 +1,6 @@
 ## Make hist ----
-y <- rnorm(100)
+df <- data.frame(x = 1:10, y=rnorm(10))
 
 
 library(ggplot2)
-ggplot()
+ggplot(df, aes(x,y)) + geom_point()
