@@ -1,3 +1,6 @@
 ## Make hist ----
 y <- rnorm(100)
-hist(y)
+
+
+library(ggplot2)
+ggplot()
